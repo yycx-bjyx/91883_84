@@ -15,5 +15,5 @@ def yes_no(question, learn_it_before):
 
 
 instructions = yes_no("Have you learnt Japanese before? ", 
-                      "Please learn Japanese before testing yourself. \n")
+                      "Please learn Japanese before testing yourself.\n")
 
