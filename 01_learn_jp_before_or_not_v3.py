@@ -1,5 +1,5 @@
 # Functions
-def yes_no(question):
+def yes_no(question, learn_it_before):
     valid = False
     while not valid:
         # by making a variable for the t / f statement, it is not a lazy coding...
@@ -14,7 +14,6 @@ def yes_no(question):
 # Main Routine...
 
 
-instructions = yes_no("Have you learnt Japanese before? ")
+instructions = yes_no("Have you learnt Japanese before? ", 
+                      "Please learn Japanese before testing yourself. \n")
 
-print("you chose {}".format(instructions))
-print()
