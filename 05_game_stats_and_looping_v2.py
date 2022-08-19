@@ -29,7 +29,7 @@ while count < REPEAT:
     elif user == exit_way:
             count = REPEAT
             Total_score = count * 10
-            print("You're score is: {}".format(score))
+            print("Your score is: {}".format(score))
 
     else:
         print("Sorry, You Got This Wrong...\n")
