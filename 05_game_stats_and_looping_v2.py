@@ -46,7 +46,7 @@ while count < REPEAT:
         answers.pop(rand)
 
 score_percentage = score/Total_score * 100
-print("You got {}% right in the quiz. ".format(score_percentage))
+print("You got {}% right in the quiz.".format(score_percentage))
 if score_percentage > 50:
     print("CONGRATULATIONS!! YOU'VE COMPLETED THE QUIZ FANTASTICALLY!!")
 
